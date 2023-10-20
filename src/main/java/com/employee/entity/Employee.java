@@ -11,7 +11,9 @@ import jakarta.persistence.Table;
 public class Employee {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	
 private int id;
+	private int num;
 private String name;
 private int age;
 private String gender;
